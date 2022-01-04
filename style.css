@@ -1,0 +1,63 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #141432;
+}
+
+#projects {
+    background-color: #141432;
+}
+
+footer {
+    background-color: #141432;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font: 300 18px/1.5rem Poppins, sans-serif;
+    color: #E7E7E8;
+    transition: 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    font: 600 18px/1.5rem Poppins, sans-serif;
+    color: #E7E7E8;
+    transition: 0.5s;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.card {
+    background: rgba(0, 21, 219, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+input {
+    background: rgba(0, 21, 219, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+textarea {
+    background: rgba(0, 21, 219, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
